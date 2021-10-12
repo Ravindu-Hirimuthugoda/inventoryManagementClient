@@ -13,7 +13,7 @@ import StudentBorrowingDetails from './screen/studentScreen/StudentBorrowingDeta
 function App() {
   return(
       <Switch>
-        <Route path='/checkAvailability'>
+        <Route path='/'>
           <CheckAvailabilityScreen/>
         </Route>
         <Route path='/createNormalRequest'>
