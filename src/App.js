@@ -15,7 +15,7 @@ import StudentBorrowingDetails from './screen/studentScreen/StudentBorrowingDeta
 function App() {
   return(
       <Switch>
-        <Route path='/'>
+        <Route path='/checkAvailability'>
           <CheckAvailabilityScreen/>
         </Route>
         <Route path='/createNormalRequest'>
