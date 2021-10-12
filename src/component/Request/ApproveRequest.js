@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import { useHistory } from 'react-router';
 import useHttp from '../hook/use-http';
 import Moment from 'moment';
-import { useState } from "react/cjs/react.development";
+import { useState } from 'react';
 
 const ApproveRequest = (props)=>{
     const history = useHistory();
